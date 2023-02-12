@@ -1,0 +1,148 @@
+:root {
+    --main-color: #212121;
+    --sec-color: #2196F3;
+    --third-color: #757575;
+    --back-color: #ffffff;
+    --link-color: #F5F4FA;
+    --address-color: rgba(255, 255, 255, 0.6);
+    --footer_color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.unstyled-list {
+    list-style: none;
+}
+
+.page-header {
+    background-color: var(--back-color);
+}
+
+.main-section {
+    background-color: var(--back-color);
+}
+
+.link, .link2 {
+    color:var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link2 {
+    color: var(--third-color);
+}
+
+#port-butt {
+    color: var(--sec-color)
+}
+
+.info-head {
+    color: var(--third-color)
+}
+
+.page-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    line-height: 31px;
+    font-size: 26px;
+    text-decoration: none;
+    color: var(--sec-color);
+}
+
+.title-black {
+    color: var(--main-color);
+}
+
+.title-white{
+    color: var(--back-color)
+}
+
+.page-button {
+    left: 614px;
+    top: 174px;
+    background: var(--link-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.page-button:hover{
+    background-color: var(--sec-color);
+    color:var(--back-color) ;
+}
+
+
+.page-button>span {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.portofolio-frame {
+    width: 370px;
+    height: 404px;
+    background: var(--back-color);
+    border: none;
+}
+
+.portofolio-image {
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 262px;
+}
+
+.portofolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portofolio-type {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--third-color);
+}
+
+.page-footer {
+    background: var(--footer_color);
+}
+
+.address-street {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: var(--back-color)
+}
+
+.address-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: var(--address-color)
+}
+
+.address-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: var(--address-color)
+}
